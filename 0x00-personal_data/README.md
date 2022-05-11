@@ -4,7 +4,7 @@
 
 + [x] [0. Regex-ing](./filtered_logger.py)
 
-   +Write a function called filter_datum that returns the log message obfuscated:
+   + Write a function called filter_datum that returns the log message obfuscated:
 
    * Arguments:
       + fields: a list of strings representing all fields to obfuscate
@@ -59,9 +59,10 @@ class RedactingFormatter(logging.Formatter):
         NotImplementedError
 ```
 
-    + Updated the class to accept a list of strings fields constructor argument.
 
-    + Implemented the format method to filter values in incoming log records using filter_datum. Values for fields in fields should be filtered.
+* Updated the class to accept a list of strings fields constructor argument.
+
+* Implemented the format method to filter values in incoming log records using filter_datum. Values for fields in fields should be filtered.
 
 * I ensures I DID NOT extrapolate FORMAT manually. The format method should be less than 5 lines long.
 
@@ -103,7 +104,9 @@ Create a tuple PII_FIELDS constant at the root of the module containing the fiel
 Tips:
 
 [What Is PII, non-PII, and personal data?](https://piwik.pro/blog/what-is-pii-personal-data/)
+
 [Uncovering Password Habits](https://digitalguardian.com/blog/uncovering-password-habits-are-users-password-security-habits-improving-infographic)
+
 ```
 bob@dylan:~$ cat main.py
 #!/usr/bin/env python3
@@ -200,11 +203,16 @@ bob@dylan:~$
 **Filtered fields:**
 
 -name
+
 -email
+
 -phone
+
 -ssn
+
 -password
-    + Only my main function should run when the module is executed.
+
++ Only my main function should run when the module is executed.
 
 ```
 bob@dylan:~$ cat main.sql
