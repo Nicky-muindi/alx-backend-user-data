@@ -1,4 +1,4 @@
-5# 0x02. Session authentication
+# 0x02. Session authentication
 
 ## Description:
 
@@ -54,4 +54,4 @@ I learnt the followingas as I did the tasks in this project:
 
 ## Author
 
-**Nicholas M Mwanza** - [Nicky-muindi](https://github.com/Nicky-muindi) :smiley:
+**Nicholas M Mwanza** - [Nicky-muindi](https://github.com/Nicky-muindi) :heavy tick:
